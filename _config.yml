@@ -4,9 +4,6 @@
 # © 2017-2019 Cotes Chung
 # MIT licensed
 
-encoding: UTF-8
-markdown: GFM
-
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # --------------------------
 title: PT   # the main title
