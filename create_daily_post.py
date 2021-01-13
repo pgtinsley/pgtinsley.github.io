@@ -27,7 +27,7 @@ if tags:
     tags = tags.replace(',',', ')
 
 title_fmtd = ' '.join([title.split('-')[0], title.split('-')[1]+',', title.split('-')[2]])
-frontmatter = '---\ntitle: {}\nauthor: PT\ndate: {} 00:00:00 −0500\ncategories: [{}]\ntags: [{}]\n---\n'.format(title_fmtd, now.strftime('%Y-%m-%d'), categories, tags)
+frontmatter = '---\ntitle: {}\nauthor: PT\ndate: {} 00:00:00 +0800\ncategories: [{}]\ntags: [{}]\n---\n'.format(title_fmtd, now.strftime('%Y-%m-%d'), categories, tags)
 
 # RANDOM QUOTE
 
