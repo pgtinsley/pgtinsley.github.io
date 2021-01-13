@@ -14,7 +14,7 @@ api_key = 'dc6zaTOxFJmzC' # str | Giphy API Key.
 # FNAME
 
 now = datetime.now()
-title = now.strftime("%B-%d,-%Y")
+title = now.strftime("%B-%d-%Y")
 fname = './_posts/'+now.strftime('%Y')+'-'+now.strftime('%m')+'-'+now.strftime('%d')+'-'+title+'.md'
 
 # FRONTMATTER
@@ -25,7 +25,9 @@ if categories:
 tags = sys.argv[2]
 if tags:
     tags = tags.replace(',',', ')
-frontmatter = '---\ntitle: {}\nauthor: PT\ndate: {} 00:00:00 −0500\ncategories: [{}]\ntags: [{}]\n---\n'.format(title.replace('-',' '), now.strftime('%Y-%m-%d'), categories, tags)
+
+title_fmtd = ' '.join([title.split('-')[0], title.split('-')[1]+',', title.split('-')[2]])
+frontmatter = '---\ntitle: {}\nauthor: PT\ndate: {} 00:00:00 −0500\ncategories: [{}]\ntags: [{}]\n---\n'.format(title_fmtd, now.strftime('%Y-%m-%d'), categories, tags)
 
 # RANDOM QUOTE
 
