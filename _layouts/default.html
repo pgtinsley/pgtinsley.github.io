@@ -1,55 +1,39 @@
----
-layout: compress
-# Default layout
-# v2.0
-# https://github.com/cotes2020/jekyll-theme-chirpy
-# © 2017-2019 Cotes Chung
-# MIT Licensed
----
-
 <!DOCTYPE html>
-
-{% capture prefer_mode %}
-  {% if site.theme_mode %}
-    mode="{{ site.theme_mode }}"
-  {% endif %}
-{% endcapture %}
-
-<html lang="{{ site.lang | split: "_" | first | default: "en" }}" {{ prefer_mode }}>
+<html lang="en">
 
   {% include head.html %}
 
-  <body data-spy="scroll" data-target="#toc">
-
-    {% include sidebar.html %}
-
-    {% include topbar.html %}
-
-    <div id="main-wrapper">
-      <div id="main">
-
-        {% include refactor-content.html content=content %}
-
-        {% include footer.html %}
-
+  <body>
+    <nav class="nav">
+      <div class="nav-container">
+        <a href="{{ site.baseurl }}/">
+          <h2 class="nav-title">{{ site.title }}</h2>
+        </a>
+        <ul class="nav-social-icons">
+          {% if site.social.email %}
+            <li><a target="_blank" href="mailto:{{ site.social.email }}"><i class="fas fa-envelope"></i></a></li>
+          {% endif %}
+          {% if site.social.github %}
+            <li><a target="_blank" href="{{ site.social.github }}"><i class="fab fa-github"></i></a></li>
+          {% endif %}
+          {% if site.social.twitter %}
+            <li><a target="_blank" href="{{ site.social.twitter }}"><i class="fab fa-twitter"></i></a></li>
+          {% endif %}
+          {% if site.social.linkedin %}
+            <li><a target="_blank" href="{{ site.social.linkedin }}"><i class="fab fa-linkedin-in"></i></a></li>
+          {% endif %}
+        </ul>
       </div>
+    </nav>
 
-      {% include search-results.html %}
+    <main>
+      {{ content }}
+    </main>
 
-    </div> <!-- #main-wrapper -->
-
-    {% if page.mermaid %}
-      {% include mermaid.html %}
-    {% endif %}
-
-    <div id="mask"></div>
-
-    <a id="back-to-top" href="#" aria-label="back-to-top" class="btn btn-lg btn-box-shadow" role="button">
-      <i class="fas fa-angle-up"></i>
-    </a>
-
-    {% include search-loader.html %}
-
+    <footer>
+      <span>
+        &copy; <time datetime="{{ site.time }}">{{ site.time | date: '%Y' }}</time> {{ site.author.name }}. Powered by Jekyll and <a href="#">Rain</a> theme.
+      </span>
+    </footer>
   </body>
-
 </html>
