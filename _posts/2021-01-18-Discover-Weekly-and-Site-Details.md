@@ -3,6 +3,8 @@ layout: post
 title: Discover Weekly and Site Details
 ---
 
+<iframe src="https://open.spotify.com/embed/playlist/7hhiK2Wlu3hlwv6z6HEKfT" width="100%" height="250px" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+
 ## *Not Work-Related*
 
 My Discover Weekly, in tandem with MEGA\_LOW\_DOWN, is currently going off.
