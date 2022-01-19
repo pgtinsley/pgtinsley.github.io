@@ -1,133 +1,52 @@
-# Rain
+<h1>Flexton is an ultra-minimalist and responsive theme for Jekyll</h1>
 
-Rain is a simple and clean Jekyll theme with focus on content. It's a fork of [Tale theme](https://github.com/chesterhow/tale) with additional customizations.
+<p>Flexton created especially for those who appreciate minimalism and functionality.</p>
+<p>Amazing flexibility with pleasant colors and custom design makes Flexton a simple theme, suitable for almost any blog.</p>
 
-![](https://github.com/inelaah/rain/blob/master/images/screenshot.png)
+<h2>Demo</h2>
 
-## Features
-- Compatible with GitHub Pages
-- Responsive design
-- Syntax highlighting
-- Markdown and HTML text formatting
-- Pagination of posts
-- Related articles section
-- Links to social media
+Check the theme in action [Demo](https://flexton.netlify.com/)
 
+![Page preview](https://github.com/artemsheludko/flexton/blob/master/images/preview.png?raw=true)
 
-## Getting Started
+<h2>Features</h2>
 
-You will need to install Jekyll on your machine. Installation depends on your operating system and it is explained [here](https://jekyllrb.com/docs/installation/).
+<ul>
+	<li>100% responsive and clean theme</li>
+ 	<li>Optimized for mobile devices</li>
+	<li>Valid HTML5 code</li>
+	<li>Included site search</li>
+	<li>Contact Page</li>
+	<li>Post sharing</li>
+	<li>Supports Mail Chimp Subscriber</li>
+	<li>Supports Disqus Comments</li>
+	<li>Social Media Profiles</li>
+	<li>Contact Form - FormsPree</li>
+	<li>Evil Icons</li>
+	<li>Google Fonts</li>
+</ul>
 
-Then create a new directory and clone this repository:
+<h2>Credits</h2>
 
-```bash
-mkdir rain
-cd rain
-git clone https://github.com/inelaah/rain.git
-```
+<p>I have used the following scripts, fonts or other files as listed.</p>
 
-Install all dependencies:
+<ul>
+  <li><a href="https://fonts.google.com/">Google Fonts</a> (Volkhov, Open Sans).</li>
+  <li><a href="http://evil-icons.io/">Evil Icons</a></li>
+  <li><a href="http://fitvidsjs.com/">FitVids.js</a></li>
+  <li><a href="https://jquery.com/">jQuery.com</a></li>
+  <li><a href="https://github.com/christian-fei/Simple-Jekyll-Search">Simple-Jekyll-Search</a></li>
+  <li>Preview Images form <a href="https://unsplash.com/">unsplash.com</a>, <a href="https://www.pexels.com/">pexels.com</a></li>
+</ul>
 
-```bash
-bundle install
-```
+<h2>Deployment</h2>
 
-## Site Configuration
+To run the theme locally, navigate to the theme directory and run `bundle install` to install the dependencies, then run `jekyll serve` or `bundle exec serve` to start the Jekyll server.
 
-There is a configuration file `_config.yml` in root directory. You should overwrite it to fit to your needs.
+I would recommend checking the [Deployment Methods](https://jekyllrb.com/docs/deployment-methods/) page on Jekyll website.
 
-An example of `_config.yml` looks like this:
+<h2>Buy me a coffee</h2>
 
-```bash
-# Site settings
-title:          Rain
-description:    "Rain is a simple and clean Jekyll theme with focus on content."
-url:            https://github.com/inelaah/rain
-
-# Author
-author:
-  name:         Inela Avdic Hukic
-  email:        inelaah@gmail.com
-  url:          https://inelaah.com
-
-# Build settings
-markdown:       kramdown
-
-# Assets
-sass:
-  sass_dir:     _sass
-  style:        compressed
-
-# Gems
-plugins:
-  - jekyll-feed
-  - jekyll-paginate
-  # - jemoji #Uncomment this to allow emoji in your post
-
-# Permalinks
-permalink:      /:year-:month-:day/:title
-paginate:       5
-
-# Related posts settings
-related_posts_section:
-  max_count:        5
-  min_common_tags:  2
-
-# Links to social media
-social:
-  email: inelaah@gmail.com
-  github: https://github.com/inelaah
-  twitter: https://twitter.com
-  linkedin: https://ba.linkedin.com/in/inela-avdic-hukic-322354131
-```
-
-## Favicons
-
-It is recommended to put your own favicons:
-
-- `apple-touch-icon.png` (180x180)
-- `favicon-32x32.png` (32x32)
-- `favicon-16x16.png` (16x16)
-- `mstile-150x150.png` (150x150)
-- `android-chrome-192x192.png` (192x192)
-- `android-chrome-512x512.png` (512x512)
-
-in `/assets` directory. They're easily created via [Favicon Generator](https://realfavicongenerator.net/).
-
-
-## Related Articles
-
-Related articles section is based on article tags. For every post that you want to have this section you should define tags.
-To include related articles in the bottom of the content you should define `related_posts_section` property in configuration file.
-It contains two fields: `max_count` and `min_common_tags`:
-- `max_count` represents the maximum number of related articles shown on a single article.
-- `min_common_tags` represents the minimum number of common tags for two articles to become related articles.
-
-## Links to social media
-
-To include links to social media in the top right corner of your page you need to define `social` property.
-It contains email, GitHub, Twitter and LinkedIn fields. You can leave out any of these if you don't want them to show up on your page.
-
-## Customizing Rain theme
-
-If you want to customize Rain theme you can fork this project and make some changes. If you just want to change the style then you can find Sass files in `_sass/rain` directory.
-
-## Adding your own posts
-
-You can see an example of post structure in `_posts` directory. After you clone this project you should clean the `_posts` directory and add your own posts.
-
-## Build and serve
-
-```
-bundle exec jekyll serve
-```
-
-Head over to http://127.0.0.1:4000/ to see your page.
-
-## License
-
-Rain is licensed under the MIT license. Check the [LICENSE](LICENSE.md) file for details.
-
-## Author
-
-[Inela Avdic Hukic](https://github.com/inelaah)
+<p>If you want to show your appreciation, buy me one <a href="https://www.buymeacoffee.com/artemsheludko" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;" ></a> ! Every five cups of coffee and a new theme for Jekyll is ready 😋</p>
+<p>Either way, your support is a way to thank me ❤️</p>
+<p align="center"><b>Thank you for your support!</b></p>

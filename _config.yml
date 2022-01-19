@@ -1,41 +1,53 @@
-# Site settings
-title:          PT
-description:    "I am a third-year member of the CVRL @ the University of Notre Dame. My focus is latent space representation in the context of person re-identification and synthetic image generation."
-url:            https://pgtinsley.github.io/
+title: PT
+description: My personal site.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "flexton.netlify.com" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Author
-author:
-  name:         PT
-  email:        ptinsley@nd.edu
-  url:          https://tinsleyzoo.com
+author-name:    Patrick Tinsley (PT)
+author-image:   prof.jpeg
+author-job:     Computer Vision Research Assistant
+author-email:   ptinsley@nd.edu # Add your email for contant form.
+author-twitter: pgtinsley # Add your twitter account
+about-author:   I am a third-year member of the CVRL @ the University of Notre Dame. I focus on latent space analysis for biometric re-identification, novel image synthesis, and model trustworthiness assessment.
+
+# Social settings
+social-twitter:   pgtinsley
+social-facebook:  
+social-github:    pgtinsley
+social-pinterest: 
+social-instagram: 
+social-youtube:   
+social-vk:   
+social-linkedin:  pgtinsley
+
+# Newsletter
+mailchimp: # Add your MailChimp form identifier. For example - blogenjoyfreedom.us16.list-manage.com/subscribe/post?u=cd56155d76ddeeb4c0bc4d080&amp;id=7a526cd13e
+
+# Google Analytics
+google-analytics: G-E9LCW33QD8 # Add your identifier. For example UA-99631805-1 
+
+# Comment Section (Disqus)
+disqus-identifier: # Add your shortname for Disqus Comment. For example mr-brown
 
 # Build settings
-markdown:       kramdown
-
-# Assets
-sass:
-  sass_dir:     _sass
-  style:        compressed
-
-# Gems
+markdown: kramdown
+permalink: /:year/:month/:day/:title/
 plugins:
-  - jekyll-feed
   - jekyll-paginate
-  # - jemoji #Uncomment this to allow emoji in your post
 
-# Permalinks
-permalink:      /:year-:month-:day/:title
-paginate:       5
+paginate: 7
+paginate_path: "/page/:num/"
 
-# Related posts settings
-related_posts_section:
-  max_count:        5
-  min_common_tags:  2
+include:
+  - _pages
 
-# Links to social media
-social:
-  email: ptinsley@nd.edu
-  github: https://github.com/pgtinsley
-  twitter: https://twitter.com/pgtinsley
-  linkedin: https://ba.linkedin.com/in/pgtinsley
-  scholar: https://scholar.google.com/citations?hl=en&user=ZLuTa3gAAAAJ
+sass:
+  sass_dir: _sass
+  style: compressed
+
+# Exclude from processing.
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - vendor
