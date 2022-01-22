@@ -9,9 +9,7 @@ categories: quotes
 
 #### Quotes
 
-###### A quote looks like this:
-
 > Maybe we have to break everything to make something better out of ourselves.
-> 
+> This is another quote.
 
 ***
