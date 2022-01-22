@@ -1,0 +1,17 @@
+---
+layout: post
+title: Quotes
+image: quotes.jpeg
+date: 2022-01-22 12:00:00 +0200
+tags:
+categories: quotes
+---
+
+#### Quotes
+
+###### A quote looks like this:
+
+> Maybe we have to break everything to make something better out of ourselves.
+> 
+
+***

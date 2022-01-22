@@ -6,10 +6,10 @@ url: "flexton.netlify.com" # the base hostname & protocol for your site, e.g. ht
 # Author
 author-name:    Patrick Tinsley (PT)
 author-image:   prof.jpeg
-author-job:     Computer Vision Research Assistant
+author-job:     Research Assistant
 author-email:   ptinsley@nd.edu # Add your email for contant form.
 author-twitter: pgtinsley # Add your twitter account
-about-author:   I am a third-year member of the CVRL @ the University of Notre Dame. I focus on latent space analysis for biometric re-identification, novel image synthesis, and model trustworthiness assessment.
+about-author:   I am a third-year member of the CVRL @ the University of Notre Dame, where I work on latent space analysis for biometric re-identification, novel image synthesis, and model trustworthiness assessment.
 
 # Social settings
 social-twitter:   pgtinsley
