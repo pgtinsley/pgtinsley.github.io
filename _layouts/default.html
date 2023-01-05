@@ -1,15 +1,26 @@
 <!DOCTYPE html>
+<link rel="stylesheet" href="../assets/css/devicon.min.css">
 <html lang="en">
-{% include head.html %}
+  
+  {% include head.html %}
+  
+  <body>
+      
+      {% include header.html %}
 
-<body>
-  {% if site.google-analytics %}
-    {% include analytics.html %}
-  {% endif %}
-  <div class="o-wrapper">
-    {{ content }}
-  </div> <!-- /.o-wrapper -->
-  <div class="c-top" data-icon='ei-chevron-up' data-size='s' title="Scroll To Top"></div> <!-- /.c-top -->
-  {% include javascripts.html %}
-</body>
+      <!--
+      <section id="about">
+      
+        {% include about.html %}
+      
+      </section>
+      -->
+
+      <!--
+      {{ content }}
+      -->
+      
+      {% include footer.html %}
+
+  </body>
 </html>
