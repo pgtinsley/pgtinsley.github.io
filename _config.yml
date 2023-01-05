@@ -1,11 +1,11 @@
 # Site settings
-title: Patrick Tinsley (PT)
+title: Patrick Tinsley
 description: Jekyll Theme Minimal Resume
 # baseurl: "" # the subpath of your site, e.g. /blog
 # url: "localhost:3000" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
 
 # User settings
-username: Patrick Tinsley (PT)
+username: Patrick Tinsley
 user_description: I'm a PhD candidate at the University of Notre Dame studying face recognition and synthetic biometrics.
 user_title: AI/ML Research Scientist
 email: ptinsley@nd.edu
@@ -17,5 +17,7 @@ github_username:  pgtinsley
 # medium_username: lorem_ipsum
 # medium_url: lorem_ipsum.medium.com
 # gplus_username:  lorem_ipsum
+
+author_image: 'prof.jpeg'
 
 exclude: ['package.json', 'src' , 'node_modules']
